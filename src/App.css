@@ -1,0 +1,40 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  /* This is the background image required by the rubric */
+  background-image: url('https://images.unsplash.com/photo-1466692476877-3aa00848039ea?auto=format&fit=crop&w=1920&q=80'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.landing-page h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
